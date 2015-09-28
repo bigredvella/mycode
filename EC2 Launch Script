@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-6989a659 --count 2 --instance-type t1.micro --key-name ITMO544aws-MAC --security-group-ids sg-d00594b4 --subnet-id subnet-69ea9b1e --associate-public-ip-address --user-date file://install-webserver.sh --debug
